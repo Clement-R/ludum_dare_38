@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="75">
-	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2212368384" DateHigh="30587921"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3525050112" DateHigh="30588003"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="3659302912" DateHigh="30569328"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="3659302912" DateHigh="30569328"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\Attenuations\Default Work Unit.wwu" DateLow="780664064" DateHigh="30587716"/>
@@ -14,17 +14,18 @@
 	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\Events\Default Work Unit.wwu" DateLow="2752368384" DateHigh="30587921"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\Game Parameters\Default Work Unit.wwu" DateLow="780664064" DateHigh="30587716"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="3659302912" DateHigh="30569328"/>
-	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="2797793536" DateHigh="30587934"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="3958840064" DateHigh="30587966"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="780664064" DateHigh="30587716"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\Mixing Sessions\Default Work Unit.wwu" DateLow="780664064" DateHigh="30587716"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\Modulators\Default Work Unit.wwu" DateLow="780664064" DateHigh="30587716"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\Musique _de_boule.wproj" DateLow="780664064" DateHigh="30587716"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\Musique _de_boule.wrath.wsettings" DateLow="1078896338" DateHigh="30588008"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\Presets\Default Work Unit.wwu" DateLow="780664064" DateHigh="30587716"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\Queries\Default Work Unit.wwu" DateLow="780664064" DateHigh="30587716"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\Queries\Factory Queries.wwu" DateLow="3659302912" DateHigh="30569328"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\SoundBanks\Default Work Unit.wwu" DateLow="2752368384" DateHigh="30587921"/>
-	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\Soundcaster Sessions\Default Work Unit.wwu" DateLow="2797793536" DateHigh="30587934"/>
-	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\States\Default Work Unit.wwu" DateLow="3657270272" DateHigh="30587918"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1405050112" DateHigh="30588003"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\States\Default Work Unit.wwu" DateLow="2768774656" DateHigh="30587964"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\Switches\Default Work Unit.wwu" DateLow="780664064" DateHigh="30587716"/>
-	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\Triggers\Default Work Unit.wwu" DateLow="780664064" DateHigh="30587716"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\Triggers\Default Work Unit.wwu" DateLow="2768774656" DateHigh="30587964"/>
 </ValidationCache>

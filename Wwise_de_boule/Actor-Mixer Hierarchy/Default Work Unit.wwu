@@ -12,6 +12,11 @@
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Pitch" Type="int32">
 							<ModifierList>
 								<ModifierInfo>
@@ -26,6 +31,16 @@
 							</ModifierList>
 						</Property>
 						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -117,6 +132,9 @@
 				<RandomSequenceContainer Name="Robot_colision" ID="{00ACFDD8-C475-4EA1-9D88-4ACA22F3029E}" ShortID="938663762">
 					<PropertyList>
 						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-230</Value>
+							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
 									<Modifier Name="" ID="{C0DDCD20-BA4A-4EE8-B770-86A8D5223458}">
@@ -353,6 +371,11 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Colision_gros_2" ID="{038960AF-8863-48C7-AE19-4A530E9D8F6A}" ShortID="1007619004">
 					<PropertyList>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Pitch" Type="int32">
 							<ModifierList>
 								<ModifierInfo>
@@ -365,6 +388,16 @@
 									</Modifier>
 								</ModifierInfo>
 							</ModifierList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -456,6 +489,11 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Colision_gros_3" ID="{909A2CA9-ABF4-4756-A39B-46C5EB26CA9B}" ShortID="944889313">
 					<PropertyList>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Pitch" Type="int32">
 							<ModifierList>
 								<ModifierInfo>
@@ -468,6 +506,16 @@
 									</Modifier>
 								</ModifierInfo>
 							</ModifierList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -571,6 +619,11 @@
 									</Modifier>
 								</ModifierInfo>
 							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -676,6 +729,11 @@
 							</ModifierList>
 						</Property>
 						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -1060,6 +1118,279 @@
 						<ActiveSource Name="Finish" ID="{09085C25-A063-424E-A124-112B037B6E27}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="Robot_colision_2" ID="{5FA9B56A-0B72-4F5F-8A80-517BD272A0CC}" ShortID="950477781">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>430</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C8752E39-B250-4CC1-AF7C-C2E978612327}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="253"/>
+											<Property Name="Min" Type="Real64" Value="-505"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{99D59FA2-7FCD-44F0-AA31-F2602348B0EE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD1AB264-B4E3-477F-A2F5-421180DD1766}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Robot_colision_1" ID="{EE6A8ECD-00DB-4DD7-A452-9A79D3D51FC6}" ShortID="906591418" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{99D59FA2-7FCD-44F0-AA31-F2602348B0EE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD1AB264-B4E3-477F-A2F5-421180DD1766}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_colision_1" ID="{8A780609-9C4E-4251-8A7B-08F245D6AA08}" ShortID="624030253">
+									<Language>SFX</Language>
+									<AudioFile>Robot_colision_1.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="272881625"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_colision_1" ID="{8A780609-9C4E-4251-8A7B-08F245D6AA08}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_colision_2" ID="{45C2D2A5-F145-48AC-B499-CB6282371ED5}" ShortID="220353642" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{99D59FA2-7FCD-44F0-AA31-F2602348B0EE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD1AB264-B4E3-477F-A2F5-421180DD1766}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_colision_2" ID="{8A257D10-0E79-4126-8835-43CF36CC6359}" ShortID="782947426">
+									<Language>SFX</Language>
+									<AudioFile>Robot_colision_2.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="745421958"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_colision_2" ID="{8A257D10-0E79-4126-8835-43CF36CC6359}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_colision_3" ID="{642E1A40-45EA-468C-8DD6-F58C5B307103}" ShortID="229900488" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{99D59FA2-7FCD-44F0-AA31-F2602348B0EE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD1AB264-B4E3-477F-A2F5-421180DD1766}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_colision_3" ID="{61F70CCE-1AFA-405E-888A-64FECCE58B0A}" ShortID="232365576">
+									<Language>SFX</Language>
+									<AudioFile>Robot_colision_3.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="702633082"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_colision_3" ID="{61F70CCE-1AFA-405E-888A-64FECCE58B0A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_colision_4" ID="{3B7F64E1-5836-4B56-9D17-2FA89081F627}" ShortID="1026904805" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{99D59FA2-7FCD-44F0-AA31-F2602348B0EE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD1AB264-B4E3-477F-A2F5-421180DD1766}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_colision_4" ID="{09FE8532-8922-413B-B8E5-3DEFEF4317CD}" ShortID="841346451">
+									<Language>SFX</Language>
+									<AudioFile>Robot_colision_4.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="160080675"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_colision_4" ID="{09FE8532-8922-413B-B8E5-3DEFEF4317CD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_colision_5" ID="{C12217A9-55DE-46D6-B97E-E9900116587D}" ShortID="992760826" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{99D59FA2-7FCD-44F0-AA31-F2602348B0EE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD1AB264-B4E3-477F-A2F5-421180DD1766}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_colision_5" ID="{64AF0AAF-CFD3-40FD-B293-B507A52D5B9B}" ShortID="610934626">
+									<Language>SFX</Language>
+									<AudioFile>Robot_colision_5.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="313857535"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_colision_5" ID="{64AF0AAF-CFD3-40FD-B293-B507A52D5B9B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_colision_6" ID="{6C819A65-A141-48BA-A495-543689DB27E4}" ShortID="742254354" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{99D59FA2-7FCD-44F0-AA31-F2602348B0EE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD1AB264-B4E3-477F-A2F5-421180DD1766}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_colision_6" ID="{3F812061-3808-4180-8D8B-43356AE6A695}" ShortID="368473473">
+									<Language>SFX</Language>
+									<AudioFile>Robot_colision_6.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="248436298"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_colision_6" ID="{3F812061-3808-4180-8D8B-43356AE6A695}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_colision_7" ID="{A6DBD91D-F465-434A-A299-0A75525C5AB5}" ShortID="622234492" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{99D59FA2-7FCD-44F0-AA31-F2602348B0EE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD1AB264-B4E3-477F-A2F5-421180DD1766}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_colision_7" ID="{DD22BE5E-3745-419B-B249-CF2D0142996F}" ShortID="16421701">
+									<Language>SFX</Language>
+									<AudioFile>Robot_colision_7.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="712451181"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_colision_7" ID="{DD22BE5E-3745-419B-B249-CF2D0142996F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_colision_8" ID="{C73954F5-59AA-41DE-9C7C-1632CB825ACB}" ShortID="684635135" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{99D59FA2-7FCD-44F0-AA31-F2602348B0EE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD1AB264-B4E3-477F-A2F5-421180DD1766}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_colision_8" ID="{E32F492A-7538-4F9C-B6E7-188ADE7941DD}" ShortID="1068638754">
+									<Language>SFX</Language>
+									<AudioFile>Robot_colision_8.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="821186427"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_colision_8" ID="{E32F492A-7538-4F9C-B6E7-188ADE7941DD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_colision_9" ID="{76B422D7-315E-4E20-B0BE-A1B8C4048132}" ShortID="227733434" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{99D59FA2-7FCD-44F0-AA31-F2602348B0EE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD1AB264-B4E3-477F-A2F5-421180DD1766}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_colision_9" ID="{2BFA41D6-5A1B-41D3-87DA-D736A17C0750}" ShortID="72894252">
+									<Language>SFX</Language>
+									<AudioFile>Robot_colision_9.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="750128844"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_colision_9" ID="{2BFA41D6-5A1B-41D3-87DA-D736A17C0750}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_colision_10" ID="{9905B74C-78C0-486E-AF91-8ACD157FEADC}" ShortID="792029094" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{99D59FA2-7FCD-44F0-AA31-F2602348B0EE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD1AB264-B4E3-477F-A2F5-421180DD1766}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_colision_10" ID="{8D3D34A5-9F77-4A18-93A3-696FE1195559}" ShortID="753618140">
+									<Language>SFX</Language>
+									<AudioFile>Robot_colision_10.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="310010804"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_colision_10" ID="{8D3D34A5-9F77-4A18-93A3-696FE1195559}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_colision_11" ID="{0331680B-3BEB-4758-BD5F-1748AEB98590}" ShortID="816806662" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{99D59FA2-7FCD-44F0-AA31-F2602348B0EE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD1AB264-B4E3-477F-A2F5-421180DD1766}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_colision_11" ID="{92A17193-BFE3-41F3-8D46-40F9B0564D4F}" ShortID="98474834">
+									<Language>SFX</Language>
+									<AudioFile>Robot_colision_11.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="365441456"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_colision_11" ID="{92A17193-BFE3-41F3-8D46-40F9B0564D4F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -8,6 +8,7 @@ TagManager:
   - Room
   - GameManager
   - Controller
+  - Wwise
   layers:
   - Default
   - TransparentFX

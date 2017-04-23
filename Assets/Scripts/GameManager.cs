@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour {
     public GameObject player;
     public List<GameObject> players = new List<GameObject>();
     public GameObject[] startPositions;
+    public Material[] materials;
 
     Vector3 cameraPos;
     GameObject roomInstance;
@@ -17,12 +18,15 @@ public class GameManager : MonoBehaviour {
     bool sceneInitialised = false;
 
 	void Start () {
+        AkSoundEngine.SetState("PlayerSwitch", "Game");
+
 	    if(!sceneInitialised) {
             roomInstance = Instantiate(room);
 
             for (int i = 0; i < 3; i++) {
                 players.Add(Instantiate(player));
                 players[i].transform.parent = startPositions[i].transform;
+                players[i].transform.GetChild(0).GetComponent<Renderer>().material = materials[i];
                 players[i].transform.localPosition = Vector3.zero;
                 players[i].GetComponent<ThirdPersonUserControl>().playerId = i + 1;
             }
@@ -50,16 +54,9 @@ public class GameManager : MonoBehaviour {
             }
 
             players[i].GetComponent<ThirdPersonUserControl>().playerId = playerIndex;
-            switch(playerIndex) {
-                case 1:
-                    break;
-                case 2:
-                    break;
-                case 3:
-                    break;
-                case 4:
-                    break;
-            }
+
+            players[i].transform.GetChild(0).GetComponent<Renderer>().material = materials[i];
+
             players[i].transform.position = startPositions[i].transform.position;
             if(players[i].transform.FindChild("Pick").childCount != 0) {
                 Destroy(players[i].transform.FindChild("Pick").GetChild(0).gameObject);

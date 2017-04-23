@@ -4,6 +4,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 State	ID	Name	State Group			Notes
 	702482391	Game	PlayerSwitch			
 	748895195	None	PlayerSwitch			
+	979765101	Win	PlayerSwitch			
 	2607556080	Menu	PlayerSwitch			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes

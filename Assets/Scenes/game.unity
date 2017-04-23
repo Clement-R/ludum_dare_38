@@ -553,6 +553,11 @@ MonoBehaviour:
   - {fileID: 153810856}
   - {fileID: 1803303279}
   - {fileID: 2138657746}
+  materials:
+  - {fileID: 2100000, guid: 3dcfd61361e7879488146eb076739cd9, type: 2}
+  - {fileID: 2100000, guid: 04658f5db6768054db8a99c00cf8ccc0, type: 2}
+  - {fileID: 2100000, guid: 5eb692fade6f81e4d9b62d445550fd88, type: 2}
+  - {fileID: 2100000, guid: 4c94d645053068d49bdee9c038ac3f25, type: 2}
 --- !u!1 &1028234723
 GameObject:
   m_ObjectHideFlags: 0
@@ -669,7 +674,6 @@ GameObject:
   - component: {fileID: 1258970726}
   - component: {fileID: 1258970725}
   - component: {fileID: 1258970724}
-  - component: {fileID: 1258970729}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -750,25 +754,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1258970729
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1258970723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b504d4ed433d9364b954cfbcea5d6e7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  valueGuid: 4c4eec9297b30449890143abbb8cceff
-  bankName: Boule
-  loadAsynchronous: 0
-  decodeBank: 0
-  saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
 --- !u!1 &1487302569
 GameObject:
   m_ObjectHideFlags: 0

@@ -17,7 +17,6 @@ public class ObjectCatcher : MonoBehaviour {
 
     public void OnTriggerEnter(Collider other) {
         if (other.tag == "Ball") {
-            Debug.Log("BALL !");
             ball = other.gameObject;
             canGrab = true;
         }
@@ -45,6 +44,7 @@ public class ObjectCatcher : MonoBehaviour {
     }
 
     public IEnumerator MoveToPosition(Transform transform, Vector3 position, float timeToMove, int playerId) {
+        AkSoundEngine.PostEvent("Play_Robot_victory", gameObject);
         var currentPos = transform.position;
         var t = 0f;
         while (t < 1) {

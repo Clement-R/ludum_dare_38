@@ -140,8 +140,8 @@ MonoBehaviour:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{8CD39FFD-2C94-4B29-A184-C7C881612EA5}'
-    m_lastTimePsrt1: -59472896
-    m_lastTimePart2: -1999336923
+    m_lastTimePsrt1: -947968512
+    m_lastTimePart2: -1999336877
     List:
     - Name: PlayerSwitch
       Path: Default Work Unit\PlayerSwitch
@@ -156,6 +156,7 @@ MonoBehaviour:
       - Game
       - Menu
       - None
+      - Win
       ValueIcons:
       - ElementName: Game
         ObjectType: 8
@@ -163,11 +164,14 @@ MonoBehaviour:
         ObjectType: 8
       - ElementName: None
         ObjectType: 8
-      valueIDs: d707df29f0256c9bdb3ba32c
+      - ElementName: Win
+        ObjectType: 8
+      valueIDs: d707df29f0256c9bdb3ba32c6d07663a
       ValueGuids:
       - bytes: ea12a1c420e0914699b120f76e34e593
       - bytes: bfe9fdce8ddb7d4b97d21b5e711b951d
       - bytes: 36b858837b79b54cb6525452050d823b
+      - bytes: c2cdf3cde7919b48855371fcb26488f6
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 

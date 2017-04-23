@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityStandardAssets.Characters.ThirdPerson;
 
@@ -45,6 +46,7 @@ public class ScoreSystem : MonoBehaviour {
     }
 	
 	IEnumerator addPoint() {
+        bool end = false;
         int index = 1;
         foreach (var player in players) {
             if(player.isActive) {
@@ -53,12 +55,25 @@ public class ScoreSystem : MonoBehaviour {
                 if(player.fillAmount <= 0) {
                     finalScreen.GetComponent<Text>().text = index + " WIN";
                     finalScreen.SetActive(true);
+                    end = true;
+                    StartCoroutine("restartGame");
                 }
             }
             index++;
         }
 
-        yield return new WaitForSecondsRealtime(1f);
-        StartCoroutine("addPoint");
+        if(!end) {
+            yield return new WaitForSecondsRealtime(1f);
+            StartCoroutine("addPoint");
+        } else {
+            AkSoundEngine.PostEvent("Play_Finish", gameObject);
+            Time.timeScale = 0;
+        }
+    }
+
+    IEnumerator restartGame() {
+        yield return new WaitForSecondsRealtime(4f);
+        Time.timeScale = 1;
+        SceneManager.LoadScene("Menu");
     }
 }

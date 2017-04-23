@@ -11,6 +11,7 @@
 						<State Name="None" ID="{8358B836-797B-4CB5-B652-5452050D823B}"/>
 						<State Name="Game" ID="{C4A112EA-E020-4691-99B1-20F76E34E593}"/>
 						<State Name="Menu" ID="{CEFDE9BF-DB8D-4B7D-97D2-1B5E711B951D}"/>
+						<State Name="Win" ID="{CDF3CDC2-91E7-489B-8553-71FCB26488F6}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

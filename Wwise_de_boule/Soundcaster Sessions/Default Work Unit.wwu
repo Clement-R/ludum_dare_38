@@ -89,7 +89,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Menu" ID="{CEFDE9BF-DB8D-4B7D-97D2-1B5E711B951D}"/>
+						<CurrentStateRef Name="None" ID="{8358B836-797B-4CB5-B652-5452050D823B}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
