@@ -7,7 +7,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 	[RequireComponent(typeof(Animator))]
 	public class ThirdPersonCharacter : MonoBehaviour
 	{
-		[SerializeField] float m_MovingTurnSpeed = 360;
+        [SerializeField] float m_AirControl = 6;
+        [SerializeField] float m_AirVelocity = 2;
+        [SerializeField] float m_MovingTurnSpeed = 360;
 		[SerializeField] float m_StationaryTurnSpeed = 180;
 		[SerializeField] float m_JumpPower = 12f;
 		[Range(1f, 4f)][SerializeField] float m_GravityMultiplier = 2f;
@@ -58,18 +60,16 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
 			ApplyExtraTurnRotation();
 
-			// control and velocity handling is different when grounded and airborne:
-			if (m_IsGrounded)
+            // control and velocity handling is different when grounded and airborne:
+
+            if (m_IsGrounded)
 			{
 				HandleGroundedMovement(crouch, jump);
 			}
 			else
 			{
-				HandleAirborneMovement();
+                HandleAirborneMovement(move);
 			}
-
-			ScaleCapsuleForCrouching(crouch);
-			PreventStandingInLowHeadroom();
 
 			// send input and other state parameters to the animator
 			UpdateAnimator(move);
@@ -153,14 +153,18 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		}
 
 
-		void HandleAirborneMovement()
+		void HandleAirborneMovement(Vector3 move)
 		{
-			// apply extra gravity from multiplier:
-			Vector3 extraGravityForce = (Physics.gravity * m_GravityMultiplier) - Physics.gravity;
-			m_Rigidbody.AddForce(extraGravityForce);
+            // Vector3 airMove = new Vector3(move.x * m_AirControl, m_Rigidbody.velocity.y, move.z * m_AirControl);
+            // m_Rigidbody.velocity = Vector3.Lerp(m_Rigidbody.velocity, airMove, Time.deltaTime);
+            // m_Rigidbody.velocity = airMove;
 
-			m_GroundCheckDistance = m_Rigidbody.velocity.y < 0 ? m_OrigGroundCheckDistance : 0.01f;
-		}
+            // apply extra gravity from multiplier:
+            Vector3 extraGravityForce = (Physics.gravity * m_GravityMultiplier) - Physics.gravity;
+            m_Rigidbody.AddForce(extraGravityForce);
+
+            m_GroundCheckDistance = m_Rigidbody.velocity.y < 0 ? m_OrigGroundCheckDistance : 0.01f;
+        }
 
 
 		void HandleGroundedMovement(bool crouch, bool jump)

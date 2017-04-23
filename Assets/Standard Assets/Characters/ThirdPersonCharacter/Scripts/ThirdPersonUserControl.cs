@@ -41,7 +41,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         {
             if (!m_Jump)
             {
-                m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
+                m_Jump = CrossPlatformInputManager.GetButtonDown("P" + playerId + "Jump");
             }
         }
 
@@ -50,9 +50,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private void FixedUpdate()
         {
             // read inputs
-            float h = CrossPlatformInputManager.GetAxis(horizontalAxis);
-            float v = CrossPlatformInputManager.GetAxis(verticalAxis);
-            bool crouch = Input.GetKey(KeyCode.C);
+            float h = CrossPlatformInputManager.GetAxis("P" + playerId + "Horizontal");
+            float v = CrossPlatformInputManager.GetAxis("P" + playerId + "Vertical");
 
             // calculate move direction to pass to character
             if (m_Cam != null)
@@ -66,13 +65,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                 // we use world-relative directions in the case of no main camera
                 m_Move = v*Vector3.forward + h*Vector3.right;
             }
-#if !MOBILE_INPUT
-			// walk speed multiplier
-	        if (Input.GetKey(KeyCode.LeftShift)) m_Move *= 0.5f;
-#endif
 
             // pass all parameters to the character control script
-            m_Character.Move(m_Move, crouch, m_Jump);
+            m_Character.Move(m_Move, false, m_Jump);
             m_Jump = false;
         }
     }
