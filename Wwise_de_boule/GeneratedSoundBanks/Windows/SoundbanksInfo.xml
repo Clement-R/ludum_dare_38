@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
+	<RootPaths>
+		<ProjectRoot>/Users/anizeamestoy/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/z:/Volumes/Macintosh HD/ENJMIN/JAM/Ludum 38/Wwise_de_boule/</ProjectRoot>
+		<SourceFilesRoot>/Users/anizeamestoy/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/z:/Volumes/Macintosh HD/ENJMIN/JAM/Ludum 38/Wwise_de_boule/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/anizeamestoy/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/z:/Volumes/Macintosh HD/ENJMIN/JAM/Ludum 38/Wwise_de_boule/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/anizeamestoy/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/z:/Volumes/Macintosh HD/ENJMIN/JAM/Ludum 38/Wwise_de_boule/GeneratedSoundBanks/Windows/</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2773911524" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Boule</ObjectPath>
+			<ShortName>Boule</ShortName>
+			<Path>Boule.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1544411388" Name="Play_Colision_gros_1" ObjectPath="\Events\Default Work Unit\Play_Colision_gros_1"/>
+				<Event Id="1544411391" Name="Play_Colision_gros_2" ObjectPath="\Events\Default Work Unit\Play_Colision_gros_2"/>
+				<Event Id="1544411390" Name="Play_Colision_gros_3" ObjectPath="\Events\Default Work Unit\Play_Colision_gros_3"/>
+				<Event Id="3651947091" Name="Play_Colision_petit_1" ObjectPath="\Events\Default Work Unit\Play_Colision_petit_1"/>
+				<Event Id="3651947088" Name="Play_Colision_petit_2" ObjectPath="\Events\Default Work Unit\Play_Colision_petit_2"/>
+				<Event Id="2175797879" Name="Play_Countdown" ObjectPath="\Events\Default Work Unit\Play_Countdown"/>
+				<Event Id="1793765179" Name="Play_Finish" ObjectPath="\Events\Default Work Unit\Play_Finish"/>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music"/>
+				<Event Id="729405422" Name="Play_Press_btn" ObjectPath="\Events\Default Work Unit\Play_Press_btn"/>
+				<Event Id="3946104485" Name="Play_Robot_colision" ObjectPath="\Events\Default Work Unit\Play_Robot_colision"/>
+				<Event Id="1538976833" Name="Play_Robot_victory" ObjectPath="\Events\Default Work Unit\Play_Robot_victory"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="2395454" Language="SFX">
+					<ShortName>Impact_gros_5.wav</ShortName>
+					<Path>SFX/Impact_gros_5_9E69E797.wem</Path>
+				</File>
+				<File Id="17542110" Language="SFX">
+					<ShortName>Game1_2.wav</ShortName>
+					<Path>SFX/Game1_2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="19141418" Language="SFX">
+					<ShortName>Game1.wav</ShortName>
+					<Path>SFX/Game1_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="58504115" Language="SFX">
+					<ShortName>Impact_petit_5.wav</ShortName>
+					<Path>SFX/Impact_petit_5_9E69E797.wem</Path>
+				</File>
+				<File Id="66981457" Language="SFX">
+					<ShortName>Impact_gros_9.wav</ShortName>
+					<Path>SFX/Impact_gros_9_9E69E797.wem</Path>
+				</File>
+				<File Id="118176122" Language="SFX">
+					<ShortName>Impact_gros_12.wav</ShortName>
+					<Path>SFX/Impact_gros_12_9E69E797.wem</Path>
+				</File>
+				<File Id="121967544" Language="SFX">
+					<ShortName>Game3.wav</ShortName>
+					<Path>SFX/Game3_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="134004570" Language="SFX">
+					<ShortName>Impact_gros_7.wav</ShortName>
+					<Path>SFX/Impact_gros_7_9E69E797.wem</Path>
+				</File>
+				<File Id="144193744" Language="SFX">
+					<ShortName>Impact_gros_6.wav</ShortName>
+					<Path>SFX/Impact_gros_6_9E69E797.wem</Path>
+				</File>
+				<File Id="160080675" Language="SFX">
+					<ShortName>Robot_colision_4.wav</ShortName>
+					<Path>SFX/Robot_colision_4_9E69E797.wem</Path>
+				</File>
+				<File Id="222232874" Language="SFX">
+					<ShortName>Finish.wav</ShortName>
+					<Path>SFX/Finish_9E69E797.wem</Path>
+				</File>
+				<File Id="227442302" Language="SFX">
+					<ShortName>Impact_petit_4.wav</ShortName>
+					<Path>SFX/Impact_petit_4_9E69E797.wem</Path>
+				</File>
+				<File Id="248436298" Language="SFX">
+					<ShortName>Robot_colision_6.wav</ShortName>
+					<Path>SFX/Robot_colision_6_9E69E797.wem</Path>
+				</File>
+				<File Id="261738927" Language="SFX">
+					<ShortName>Game7_2.wav</ShortName>
+					<Path>SFX/Game7_2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="272881625" Language="SFX">
+					<ShortName>Robot_colision_1.wav</ShortName>
+					<Path>SFX/Robot_colision_1_9E69E797.wem</Path>
+				</File>
+				<File Id="286127288" Language="SFX">
+					<ShortName>Impact_petit_1.wav</ShortName>
+					<Path>SFX/Impact_petit_1_9E69E797.wem</Path>
+				</File>
+				<File Id="289952383" Language="SFX">
+					<ShortName>Impact_petit_9.wav</ShortName>
+					<Path>SFX/Impact_petit_9_9E69E797.wem</Path>
+				</File>
+				<File Id="298262317" Language="SFX">
+					<ShortName>Game6_2.wav</ShortName>
+					<Path>SFX/Game6_2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="305133591" Language="SFX">
+					<ShortName>Impact_petit_3.wav</ShortName>
+					<Path>SFX/Impact_petit_3_9E69E797.wem</Path>
+				</File>
+				<File Id="306607432" Language="SFX">
+					<ShortName>Game7.wav</ShortName>
+					<Path>SFX/Game7_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="310010804" Language="SFX">
+					<ShortName>Robot_colision_10.wav</ShortName>
+					<Path>SFX/Robot_colision_10_9E69E797.wem</Path>
+				</File>
+				<File Id="313857535" Language="SFX">
+					<ShortName>Robot_colision_5.wav</ShortName>
+					<Path>SFX/Robot_colision_5_9E69E797.wem</Path>
+				</File>
+				<File Id="333370835" Language="SFX">
+					<ShortName>Robot_victoire_2.wav</ShortName>
+					<Path>SFX/Robot_victoire_2_9E69E797.wem</Path>
+				</File>
+				<File Id="346349602" Language="SFX">
+					<ShortName>Robot_victoire_3.wav</ShortName>
+					<Path>SFX/Robot_victoire_3_9E69E797.wem</Path>
+				</File>
+				<File Id="365441456" Language="SFX">
+					<ShortName>Robot_colision_11.wav</ShortName>
+					<Path>SFX/Robot_colision_11_9E69E797.wem</Path>
+				</File>
+				<File Id="401859080" Language="SFX">
+					<ShortName>Transition.wav</ShortName>
+					<Path>SFX/Transition_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="437776337" Language="SFX">
+					<ShortName>Impact_petit_7.wav</ShortName>
+					<Path>SFX/Impact_petit_7_9E69E797.wem</Path>
+				</File>
+				<File Id="487373271" Language="SFX">
+					<ShortName>Menu_loop.wav</ShortName>
+					<Path>SFX/Menu_loop_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="519414733" Language="SFX">
+					<ShortName>Impact_petit_2.wav</ShortName>
+					<Path>SFX/Impact_petit_2_9E69E797.wem</Path>
+				</File>
+				<File Id="561890558" Language="SFX">
+					<ShortName>Countdown_3.wav</ShortName>
+					<Path>SFX/Countdown_3_9E69E797.wem</Path>
+				</File>
+				<File Id="561952664" Language="SFX">
+					<ShortName>Impact_gros_8.wav</ShortName>
+					<Path>SFX/Impact_gros_8_9E69E797.wem</Path>
+				</File>
+				<File Id="576615817" Language="SFX">
+					<ShortName>Game2.wav</ShortName>
+					<Path>SFX/Game2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="585180416" Language="SFX">
+					<ShortName>Impact_petit_8.wav</ShortName>
+					<Path>SFX/Impact_petit_8_9E69E797.wem</Path>
+				</File>
+				<File Id="592523642" Language="SFX">
+					<ShortName>Game5_2.wav</ShortName>
+					<Path>SFX/Game5_2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="608606757" Language="SFX">
+					<ShortName>Game3_2.wav</ShortName>
+					<Path>SFX/Game3_2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="615106232" Language="SFX">
+					<ShortName>Game4_2.wav</ShortName>
+					<Path>SFX/Game4_2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="674585196" Language="SFX">
+					<ShortName>Game5.wav</ShortName>
+					<Path>SFX/Game5_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="691496278" Language="SFX">
+					<ShortName>Impact_gros_1.wav</ShortName>
+					<Path>SFX/Impact_gros_1_9E69E797.wem</Path>
+				</File>
+				<File Id="702633082" Language="SFX">
+					<ShortName>Robot_colision_3.wav</ShortName>
+					<Path>SFX/Robot_colision_3_9E69E797.wem</Path>
+				</File>
+				<File Id="705805412" Language="SFX">
+					<ShortName>Impact_gros_4.wav</ShortName>
+					<Path>SFX/Impact_gros_4_9E69E797.wem</Path>
+				</File>
+				<File Id="712451181" Language="SFX">
+					<ShortName>Robot_colision_7.wav</ShortName>
+					<Path>SFX/Robot_colision_7_9E69E797.wem</Path>
+				</File>
+				<File Id="734772069" Language="SFX">
+					<ShortName>Countdown_1.wav</ShortName>
+					<Path>SFX/Countdown_1_9E69E797.wem</Path>
+				</File>
+				<File Id="745421958" Language="SFX">
+					<ShortName>Robot_colision_2.wav</ShortName>
+					<Path>SFX/Robot_colision_2_9E69E797.wem</Path>
+				</File>
+				<File Id="750128844" Language="SFX">
+					<ShortName>Robot_colision_9.wav</ShortName>
+					<Path>SFX/Robot_colision_9_9E69E797.wem</Path>
+				</File>
+				<File Id="750669115" Language="SFX">
+					<ShortName>Press_btn_3.wav</ShortName>
+					<Path>SFX/Press_btn_3_9E69E797.wem</Path>
+				</File>
+				<File Id="767279577" Language="SFX">
+					<ShortName>Impact_gros_11.wav</ShortName>
+					<Path>SFX/Impact_gros_11_9E69E797.wem</Path>
+				</File>
+				<File Id="794422732" Language="SFX">
+					<ShortName>Game2_2.wav</ShortName>
+					<Path>SFX/Game2_2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="821186427" Language="SFX">
+					<ShortName>Robot_colision_8.wav</ShortName>
+					<Path>SFX/Robot_colision_8_9E69E797.wem</Path>
+				</File>
+				<File Id="855172991" Language="SFX">
+					<ShortName>Impact_gros_3.wav</ShortName>
+					<Path>SFX/Impact_gros_3_9E69E797.wem</Path>
+				</File>
+				<File Id="881013616" Language="SFX">
+					<ShortName>Countdown_2.wav</ShortName>
+					<Path>SFX/Countdown_2_9E69E797.wem</Path>
+				</File>
+				<File Id="918781035" Language="SFX">
+					<ShortName>Impact_petit_6.wav</ShortName>
+					<Path>SFX/Impact_petit_6_9E69E797.wem</Path>
+				</File>
+				<File Id="927763843" Language="SFX">
+					<ShortName>Impact_gros_10.wav</ShortName>
+					<Path>SFX/Impact_gros_10_9E69E797.wem</Path>
+				</File>
+				<File Id="976261943" Language="SFX">
+					<ShortName>Countdown_Go.wav</ShortName>
+					<Path>SFX/Countdown_Go_9E69E797.wem</Path>
+				</File>
+				<File Id="980765444" Language="SFX">
+					<ShortName>Press_btn_2.wav</ShortName>
+					<Path>SFX/Press_btn_2_9E69E797.wem</Path>
+				</File>
+				<File Id="1005681939" Language="SFX">
+					<ShortName>Robot_victoire_1.wav</ShortName>
+					<Path>SFX/Robot_victoire_1_9E69E797.wem</Path>
+				</File>
+				<File Id="1021055538" Language="SFX">
+					<ShortName>Game6.wav</ShortName>
+					<Path>SFX/Game6_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="1031308400" Language="SFX">
+					<ShortName>Game4.wav</ShortName>
+					<Path>SFX/Game4_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="1033215457" Language="SFX">
+					<ShortName>Impact_gros_2.wav</ShortName>
+					<Path>SFX/Impact_gros_2_9E69E797.wem</Path>
+				</File>
+				<File Id="1069096602" Language="SFX">
+					<ShortName>Press_btn_1.wav</ShortName>
+					<Path>SFX/Press_btn_1_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

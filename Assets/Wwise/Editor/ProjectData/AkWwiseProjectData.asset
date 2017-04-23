@@ -16,9 +16,79 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{0FB4BFB9-3C5F-4A7E-9103-478DAFFAFFCF}'
-    m_lastTimePsrt1: 1979019008
-    m_lastTimePart2: -1999337121
+    m_lastTimePsrt1: -964374784
+    m_lastTimePart2: -1999336920
     List:
+    - Name: Play_Colision_gros_1
+      Path: Default Work Unit\Play_Colision_gros_1
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Colision_gros_1
+        ObjectType: 3
+      ID: 1544411388
+      Guid: 38badb175aa7404e88b37dba831abc7f
+      maxAttenuation: 0
+    - Name: Play_Colision_gros_2
+      Path: Default Work Unit\Play_Colision_gros_2
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Colision_gros_2
+        ObjectType: 3
+      ID: 1544411391
+      Guid: 8859e1f6975ed44497bf8a8cca3f34cb
+      maxAttenuation: 0
+    - Name: Play_Colision_gros_3
+      Path: Default Work Unit\Play_Colision_gros_3
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Colision_gros_3
+        ObjectType: 3
+      ID: 1544411390
+      Guid: 930b6372971ef1409af4b2eb11328cb1
+      maxAttenuation: 0
+    - Name: Play_Colision_petit_1
+      Path: Default Work Unit\Play_Colision_petit_1
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Colision_petit_1
+        ObjectType: 3
+      ID: -643020205
+      Guid: e361783d43acb5458c521f02c1667cdb
+      maxAttenuation: 0
+    - Name: Play_Colision_petit_2
+      Path: Default Work Unit\Play_Colision_petit_2
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Colision_petit_2
+        ObjectType: 3
+      ID: -643020208
+      Guid: e54fd1a60a28074a886bec5f131098d1
+      maxAttenuation: 0
+    - Name: Play_Countdown
+      Path: Default Work Unit\Play_Countdown
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Countdown
+        ObjectType: 3
+      ID: -2119169417
+      Guid: 652b4565e5c18248bf475f2fe2a62b02
+      maxAttenuation: 0
+    - Name: Play_Finish
+      Path: Default Work Unit\Play_Finish
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Finish
+        ObjectType: 3
+      ID: 1793765179
+      Guid: 264a9fbd09352149ba82a454397cf774
+      maxAttenuation: 0
     - Name: Play_Music
       Path: Default Work Unit\Play_Music
       PathAndIcons:
@@ -27,7 +97,37 @@ MonoBehaviour:
       - ElementName: Play_Music
         ObjectType: 3
       ID: -1362926625
-      Guid: 730d627e5947df4886c8ecb602a181a0
+      Guid: c70531d353590c4e9217004950e2d2c7
+      maxAttenuation: 0
+    - Name: Play_Press_btn
+      Path: Default Work Unit\Play_Press_btn
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Press_btn
+        ObjectType: 3
+      ID: 729405422
+      Guid: c4c04b9d629c79458fd63d56aa9cdac6
+      maxAttenuation: 0
+    - Name: Play_Robot_colision
+      Path: Default Work Unit\Play_Robot_colision
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Robot_colision
+        ObjectType: 3
+      ID: -348862811
+      Guid: 86d76aec64136744aaf658509f5aff98
+      maxAttenuation: 0
+    - Name: Play_Robot_victory
+      Path: Default Work Unit\Play_Robot_victory
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Robot_victory
+        ObjectType: 3
+      ID: 1538976833
+      Guid: 320a89d9933df14c8d6e699e06836e9b
       maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -40,9 +140,34 @@ MonoBehaviour:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{8CD39FFD-2C94-4B29-A184-C7C881612EA5}'
-    m_lastTimePsrt1: 1358888192
-    m_lastTimePart2: -1999337125
-    List: []
+    m_lastTimePsrt1: -59472896
+    m_lastTimePart2: -1999336923
+    List:
+    - Name: PlayerSwitch
+      Path: Default Work Unit\PlayerSwitch
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlayerSwitch
+        ObjectType: 9
+      ID: 863656578
+      Guid: 0c4b9a9bc6e34e40b6525e81032f6831
+      values:
+      - Game
+      - Menu
+      - None
+      ValueIcons:
+      - ElementName: Game
+        ObjectType: 8
+      - ElementName: Menu
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      valueIDs: d707df29f0256c9bdb3ba32c
+      ValueGuids:
+      - bytes: ea12a1c420e0914699b120f76e34e593
+      - bytes: bfe9fdce8ddb7d4b97d21b5e711b951d
+      - bytes: 36b858837b79b54cb6525452050d823b
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -54,10 +179,24 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{EDE7D7E8-FD51-42BC-9C5D-AA621A4EFF07}'
-    m_lastTimePsrt1: 1358888192
-    m_lastTimePart2: -1999337125
-    List: []
-  ExpandedItems: []
+    m_lastTimePsrt1: -964374784
+    m_lastTimePart2: -1999336920
+    List:
+    - Name: Boule
+      Path: Default Work Unit\Boule
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Boule
+        ObjectType: 7
+      ID: -1521055772
+      Guid: 4c4eec9297b30449890143abbb8cceff
+  ExpandedItems:
+  - /Musique _de_boule
+  - /Musique _de_boule/Events
+  - /Musique _de_boule/Events/Default Work Unit
+  - /Musique _de_boule/SoundBanks
+  - /Musique _de_boule/SoundBanks/Default Work Unit
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

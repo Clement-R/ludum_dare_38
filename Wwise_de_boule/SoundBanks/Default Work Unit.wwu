@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{EDE7D7E8-FD51-42BC-9C5D-AA621A4EFF07}" SchemaVersion="75">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{EDE7D7E8-FD51-42BC-9C5D-AA621A4EFF07}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{EDE7D7E8-FD51-42BC-9C5D-AA621A4EFF07}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Boule" ID="{92EC4E4C-B397-4904-8901-43ABBB8CCEFF}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Colision_gros_3" ID="{72630B93-1E97-40F1-9AF4-B2EB11328CB1}" WorkUnitID="{0FB4BFB9-3C5F-4A7E-9103-478DAFFAFFCF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Robot_colision" ID="{EC6AD786-1364-4467-AAF6-58509F5AFF98}" WorkUnitID="{0FB4BFB9-3C5F-4A7E-9103-478DAFFAFFCF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Colision_gros_2" ID="{F6E15988-5E97-44D4-97BF-8A8CCA3F34CB}" WorkUnitID="{0FB4BFB9-3C5F-4A7E-9103-478DAFFAFFCF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Press_btn" ID="{9D4BC0C4-9C62-4579-8FD6-3D56AA9CDAC6}" WorkUnitID="{0FB4BFB9-3C5F-4A7E-9103-478DAFFAFFCF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Colision_petit_1" ID="{3D7861E3-AC43-45B5-8C52-1F02C1667CDB}" WorkUnitID="{0FB4BFB9-3C5F-4A7E-9103-478DAFFAFFCF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Countdown" ID="{65452B65-C1E5-4882-BF47-5F2FE2A62B02}" WorkUnitID="{0FB4BFB9-3C5F-4A7E-9103-478DAFFAFFCF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Finish" ID="{BD9F4A26-3509-4921-BA82-A454397CF774}" WorkUnitID="{0FB4BFB9-3C5F-4A7E-9103-478DAFFAFFCF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Colision_petit_2" ID="{A6D14FE5-280A-4A07-886B-EC5F131098D1}" WorkUnitID="{0FB4BFB9-3C5F-4A7E-9103-478DAFFAFFCF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Robot_victory" ID="{D9890A32-3D93-4CF1-8D6E-699E06836E9B}" WorkUnitID="{0FB4BFB9-3C5F-4A7E-9103-478DAFFAFFCF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Music" ID="{D33105C7-5953-4E0C-9217-004950E2D2C7}" WorkUnitID="{0FB4BFB9-3C5F-4A7E-9103-478DAFFAFFCF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Colision_gros_1" ID="{17DBBA38-A75A-4E40-88B3-7DBA831ABC7F}" WorkUnitID="{0FB4BFB9-3C5F-4A7E-9103-478DAFFAFFCF}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

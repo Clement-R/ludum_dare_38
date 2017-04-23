@@ -1,6 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{23EB1D9C-2376-46C3-874A-B21D5F58065E}" SchemaVersion="75">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{23EB1D9C-2376-46C3-874A-B21D5F58065E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{23EB1D9C-2376-46C3-874A-B21D5F58065E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{55B3A6A4-C7EB-4861-A95D-7E236B240EFB}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Countdown" ID="{C89201ED-7013-403A-ACED-F3FAF2C53B80}" WorkUnitID="{755AAA4C-7486-4430-9858-274CCEF70FA8}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Press_btn" ID="{024DA1AF-D786-4D5A-A59F-95DB314E17C4}" WorkUnitID="{755AAA4C-7486-4430-9858-274CCEF70FA8}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Robot_colision" ID="{00ACFDD8-C475-4EA1-9D88-4ACA22F3029E}" WorkUnitID="{755AAA4C-7486-4430-9858-274CCEF70FA8}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Colision_gros_1" ID="{1C57C7E0-1AAA-4ED7-993F-28C4D2B2F749}" WorkUnitID="{755AAA4C-7486-4430-9858-274CCEF70FA8}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Colision_gros_3" ID="{909A2CA9-ABF4-4756-A39B-46C5EB26CA9B}" WorkUnitID="{755AAA4C-7486-4430-9858-274CCEF70FA8}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Colision_gros_2" ID="{038960AF-8863-48C7-AE19-4A530E9D8F6A}" WorkUnitID="{755AAA4C-7486-4430-9858-274CCEF70FA8}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music" ID="{D879D756-B086-4001-8B30-068DC441925A}" WorkUnitID="{5EA8BA5A-FA91-4418-BCBA-DC2EDF9041A0}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Robot_victory" ID="{F9A333FE-838B-4A47-843E-21A5A88BDF9B}" WorkUnitID="{755AAA4C-7486-4430-9858-274CCEF70FA8}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Colision_petit_1" ID="{00835639-36DC-4A14-ABE8-A42D43D26A4D}" WorkUnitID="{755AAA4C-7486-4430-9858-274CCEF70FA8}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Colision_petit_2" ID="{A4AC104B-D1BD-4CE2-A202-7AEF5A814679}" WorkUnitID="{755AAA4C-7486-4430-9858-274CCEF70FA8}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_RPM" ID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Storm" ID="{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fear" ID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Menu" ID="{CEFDE9BF-DB8D-4B7D-97D2-1B5E711B951D}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

@@ -1,0 +1,12 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	863656578	PlayerSwitch			\Default Work Unit\PlayerSwitch	
+
+State	ID	Name	State Group			Notes
+	702482391	Game	PlayerSwitch			
+	748895195	None	PlayerSwitch			
+	1865857008	Transition	PlayerSwitch			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+

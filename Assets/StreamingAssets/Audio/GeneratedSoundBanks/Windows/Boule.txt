@@ -1,0 +1,74 @@
+Event	ID	Name			Wwise Object Path	Notes
+	729405422	Play_Press_btn			\Default Work Unit\Play_Press_btn	
+	1538976833	Play_Robot_victory			\Default Work Unit\Play_Robot_victory	
+	1544411388	Play_Colision_gros_1			\Default Work Unit\Play_Colision_gros_1	
+	1544411390	Play_Colision_gros_3			\Default Work Unit\Play_Colision_gros_3	
+	1544411391	Play_Colision_gros_2			\Default Work Unit\Play_Colision_gros_2	
+	1793765179	Play_Finish			\Default Work Unit\Play_Finish	
+	2175797879	Play_Countdown			\Default Work Unit\Play_Countdown	
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+	3651947088	Play_Colision_petit_2			\Default Work Unit\Play_Colision_petit_2	
+	3651947091	Play_Colision_petit_1			\Default Work Unit\Play_Colision_petit_1	
+	3946104485	Play_Robot_colision			\Default Work Unit\Play_Robot_colision	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	2395454	Impact_gros_5	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Impact_gros_5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Colision_gros_2\Impact_gros_5		13164
+	17542110	Game1	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Game1_2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGame\Game1\Game1		1417912
+	19141418	Game1	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Game1_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGame\Game1\Game1		1417912
+	58504115	Impact_petit_5	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Impact_petit_5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Colision_petit_2\Impact_petit_5		2650
+	66981457	Impact_gros_9	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Impact_gros_9_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Colision_gros_3\Impact_gros_9		17298
+	118176122	Impact_gros_12	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Impact_gros_12_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Colision_gros_3\Impact_gros_12		18064
+	121967544	Game3	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Game3_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGame\Game3\Game3		1417912
+	134004570	Impact_gros_7	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Impact_gros_7_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Colision_gros_2\Impact_gros_7		14024
+	144193744	Impact_gros_6	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Impact_gros_6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Colision_gros_2\Impact_gros_6		18688
+	160080675	Robot_colision_4	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Robot_colision_4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot_colision\Robot_colision_4		116048
+	222232874	Finish	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Finish_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Finish		483376
+	227442302	Impact_petit_4	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Impact_petit_4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Colision_petit_1\Impact_petit_4		3560
+	248436298	Robot_colision_6	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Robot_colision_6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot_colision\Robot_colision_6		118534
+	261738927	Game7	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Game7_2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGame\Game7\Game7		1417912
+	272881625	Robot_colision_1	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Robot_colision_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot_colision\Robot_colision_1		143712
+	286127288	Impact_petit_1	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Impact_petit_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Colision_petit_1\Impact_petit_1		4820
+	289952383	Impact_petit_9	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Impact_petit_9_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Colision_petit_2\Impact_petit_9		2070
+	298262317	Game6	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Game6_2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGame\Game6\Game6		1417912
+	305133591	Impact_petit_3	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Impact_petit_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Colision_petit_1\Impact_petit_3		2258
+	306607432	Game7	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Game7_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGame\Game7\Game7		1417912
+	310010804	Robot_colision_10	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Robot_colision_10_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot_colision\Robot_colision_10		96730
+	313857535	Robot_colision_5	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Robot_colision_5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot_colision\Robot_colision_5		128002
+	333370835	Robot_victoire_2	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Robot_victoire_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot_victory\Robot_victoire_2		125382
+	346349602	Robot_victoire_3	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Robot_victoire_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot_victory\Robot_victoire_3		154160
+	365441456	Robot_colision_11	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Robot_colision_11_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot_colision\Robot_colision_11		141466
+	401859080	Transition	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Transition_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Transition\Transition		1417912
+	437776337	Impact_petit_7	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Impact_petit_7_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Colision_petit_2\Impact_petit_7		2860
+	487373271	Menu_loop	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Menu_loop_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Menu\Menu\Menu_loop		1417912
+	519414733	Impact_petit_2	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Impact_petit_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Colision_petit_1\Impact_petit_2		3696
+	561890558	Countdown_3	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Countdown_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Countdown\Countdown_3		398800
+	561952664	Impact_gros_8	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Impact_gros_8_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Colision_gros_2\Impact_gros_8		19988
+	576615817	Game2	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Game2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGame\Game2\Game2		1417912
+	585180416	Impact_petit_8	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Impact_petit_8_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Colision_petit_2\Impact_petit_8		2216
+	592523642	Game5	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Game5_2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGame\Game5\Game5		1417912
+	608606757	Game3	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Game3_2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGame\Game3\Game3		1417912
+	615106232	Game4	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Game4_2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGame\Game4\Game4		1417912
+	674585196	Game5	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Game5_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGame\Game5\Game5		1417912
+	691496278	Impact_gros_1	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Impact_gros_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Colision_gros_1\Impact_gros_1		14336
+	702633082	Robot_colision_3	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Robot_colision_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot_colision\Robot_colision_3		131594
+	705805412	Impact_gros_4	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Impact_gros_4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Colision_gros_1\Impact_gros_4		17142
+	712451181	Robot_colision_7	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Robot_colision_7_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot_colision\Robot_colision_7		117028
+	734772069	Countdown_1	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Countdown_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Countdown\Countdown_1		375188
+	745421958	Robot_colision_2	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Robot_colision_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot_colision\Robot_colision_2		106810
+	750128844	Robot_colision_9	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Robot_colision_9_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot_colision\Robot_colision_9		163198
+	750669115	Press_btn_3	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Press_btn_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Press_btn\Press_btn_3		178118
+	767279577	Impact_gros_11	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Impact_gros_11_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Colision_gros_3\Impact_gros_11		20586
+	794422732	Game2	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Game2_2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGame\Game2\Game2		1417912
+	821186427	Robot_colision_8	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Robot_colision_8_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot_colision\Robot_colision_8		133472
+	855172991	Impact_gros_3	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Impact_gros_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Colision_gros_1\Impact_gros_3		14172
+	881013616	Countdown_2	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Countdown_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Countdown\Countdown_2		439308
+	918781035	Impact_petit_6	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Impact_petit_6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Colision_petit_2\Impact_petit_6		2994
+	927763843	Impact_gros_10	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Impact_gros_10_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Colision_gros_3\Impact_gros_10		18420
+	976261943	Countdown_Go	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Countdown_Go_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Countdown\Countdown_Go		399972
+	980765444	Press_btn_2	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Press_btn_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Press_btn\Press_btn_2		175364
+	1005681939	Robot_victoire_1	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Robot_victoire_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot_victory\Robot_victoire_1		121030
+	1021055538	Game6	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Game6_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGame\Game6\Game6		1417912
+	1031308400	Game4	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Game4_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music\InGame\Game4\Game4		1417912
+	1033215457	Impact_gros_2	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Impact_gros_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Colision_gros_1\Impact_gros_2		10072
+	1069096602	Press_btn_1	F:\_Dev\Gamedev\ludum_dare_38\Wwise_de_boule\.cache\Windows\SFX\Press_btn_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Press_btn\Press_btn_1		177296
+
