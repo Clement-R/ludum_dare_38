@@ -75,8 +75,7 @@ public class LobbyManager : MonoBehaviour {
 
         if (Input.GetButtonDown("P1Start") || Input.GetButtonDown("P2Start") || Input.GetButtonDown("P3Start") || Input.GetButtonDown("P4Start")) {
             AkSoundEngine.PostEvent("Play_Press_btn", GameObject.FindGameObjectWithTag("Wwise").gameObject);
-
-            if(playerCount >= 2) {
+            if (playerCount >= 2) {
                 SceneManager.LoadScene("game");
             }
         }
