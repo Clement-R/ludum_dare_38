@@ -22,14 +22,40 @@ public class GameManager : MonoBehaviour {
 
 	    if(!sceneInitialised) {
             roomInstance = Instantiate(room);
-
-            for (int i = 0; i < 3; i++) {
+            
+            for (int i = 0; i < 3; i++)
+            {
                 players.Add(Instantiate(player));
-                players[i].transform.parent = startPositions[i].transform;
-                players[i].transform.GetChild(0).GetComponent<Renderer>().material = materials[i];
+                players[i].transform.SetParent(startPositions[i].transform, false);
+                //players[i].transform.GetChild(2).GetComponent<SkinnedMeshRenderer>().materials[1] = materials[i];
+                //Material[] materiaaals = players[i].transform.GetChild(2).GetComponent<SkinnedMeshRenderer>().materials;
+                //materials[1] = materials[i];
+                //players[i].transform.GetChild(2).GetComponent<SkinnedMeshRenderer>().materials = materials;
+                Renderer renderer = players[i].transform.GetChild(2).GetComponent<SkinnedMeshRenderer>();
+                Material[] mats = renderer.materials;
+                
+                switch(i)
+                {
+                    case 0:
+                        mats[1] = materials[3];
+                        break;
+                    case 1:
+                        mats[1] = materials[1];
+                        break;
+                    case 2:
+                        mats[1] = materials[2];
+                        break;
+                }
+
+                renderer.materials = mats;
+
                 players[i].transform.localPosition = Vector3.zero;
                 players[i].GetComponent<ThirdPersonUserControl>().playerId = i + 1;
+
+                
             }
+
+
         }
 
         scoreSystem = GetComponent<ScoreSystem>();
@@ -55,7 +81,10 @@ public class GameManager : MonoBehaviour {
 
             players[i].GetComponent<ThirdPersonUserControl>().playerId = playerIndex;
 
-            players[i].transform.GetChild(0).GetComponent<Renderer>().material = materials[i];
+            Renderer renderer = players[i].transform.GetChild(2).GetComponent<SkinnedMeshRenderer>();
+            Material[] mats = renderer.materials;
+            mats[1] = materials[playerIndex - 1];
+            renderer.materials = mats;
 
             players[i].transform.position = startPositions[i].transform.position;
             if(players[i].transform.FindChild("Pick").childCount != 0) {

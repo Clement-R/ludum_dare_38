@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.2520545, g: 0.28461242, b: 0.9264706, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -547,17 +547,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   room: {fileID: 1381172483137256, guid: 89633e6ab6aba244c8346caae7162e14, type: 2}
-  player: {fileID: 1278361117656336, guid: 79b0096858c198140b327bbbdb006ccf, type: 2}
+  player: {fileID: 1880438909501680, guid: 1b52587c38887b84f9a2c7be0ff10557, type: 2}
   players: []
   startPositions:
   - {fileID: 153810856}
   - {fileID: 1803303279}
   - {fileID: 2138657746}
   materials:
-  - {fileID: 2100000, guid: 3dcfd61361e7879488146eb076739cd9, type: 2}
-  - {fileID: 2100000, guid: 04658f5db6768054db8a99c00cf8ccc0, type: 2}
-  - {fileID: 2100000, guid: 5eb692fade6f81e4d9b62d445550fd88, type: 2}
-  - {fileID: 2100000, guid: 4c94d645053068d49bdee9c038ac3f25, type: 2}
+  - {fileID: 2100000, guid: cfa12138bdb4fd84796c52a687dad2be, type: 2}
+  - {fileID: 2100000, guid: ba001665e5f6b06479fcd7d3d7593ffc, type: 2}
+  - {fileID: 2100000, guid: 167c723c95c727a4dbd98bd5184aec4e, type: 2}
+  - {fileID: 2100000, guid: 29e3de1964520d641954b778c85ecbe7, type: 2}
 --- !u!1 &1028234723
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,7 +801,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.03974761, g: 0.9558824, b: 0.0070285536, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -869,7 +869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9632353, g: 0.09915656, b: 0.09915656, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1060,7 +1060,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.89705884, g: 0.72528934, b: 0.68598616, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

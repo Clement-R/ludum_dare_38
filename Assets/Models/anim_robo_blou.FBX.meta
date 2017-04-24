@@ -83,6 +83,7 @@ ModelImporter:
     400074: robot
     4300000: robot
     7400000: Take 001
+    7400002: grab
     9500000: //RootNode
     13700000: robot
   materials:
@@ -118,6 +119,110 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone001
+        weight: 1
+      - path: Bone001/Bone002
+        weight: 1
+      - path: Bone001/Bone002/Bone003
+        weight: 1
+      - path: Bone001/Bone002/Bone036
+        weight: 1
+      - path: Bone001/Bone002/Bone036/Bone037
+        weight: 1
+      - path: Bone001/Bone002/Bone036/Bone037/Bone038
+        weight: 1
+      - path: Bone001/Bone002/Bone036/Bone037/Bone038/Bone039
+        weight: 1
+      - path: Bone001/Bone002/Bone036/Bone037/Bone038/Bone039/Bone040
+        weight: 1
+      - path: Bone001/Bone002/Bone036/Bone037/Bone038/Bone039/Bone040/Bone041
+        weight: 1
+      - path: Bone001/Bone002/Bone036/Bone037/Bone038/Bone039/Bone040/Bone041/Bone042
+        weight: 1
+      - path: Bone001/Bone002/Bone036/Bone037/Bone038/Bone039/Bone040/Bone041/Bone042/Bone043
+        weight: 1
+      - path: Bone001/Bone002/Bone036/Bone037/Bone038/Bone039/Bone040/Bone044
+        weight: 1
+      - path: Bone001/Bone002/Bone036/Bone037/Bone038/Bone039/Bone040/Bone044/Bone045
+        weight: 1
+      - path: Bone001/Bone002/Bone036/Bone037/Bone038/Bone039/Bone040/Bone044/Bone045/Bone046
+        weight: 1
+      - path: Bone001/Bone002/Bone047
+        weight: 1
+      - path: Bone001/Bone002/Bone047/Bone048
+        weight: 1
+      - path: Bone001/Bone002/Bone047/Bone048/Bone049
+        weight: 1
+      - path: Bone001/Bone002/Bone047/Bone048/Bone049/Bone050
+        weight: 1
+      - path: Bone001/Bone002/Bone047/Bone048/Bone049/Bone050/Bone051
+        weight: 1
+      - path: Bone001/Bone002/Bone047/Bone048/Bone049/Bone050/Bone051/Bone052
+        weight: 1
+      - path: Bone001/Bone002/Bone047/Bone048/Bone049/Bone050/Bone051/Bone052/Bone053
+        weight: 1
+      - path: Bone001/Bone002/Bone047/Bone048/Bone049/Bone050/Bone051/Bone052/Bone053/Bone054
+        weight: 1
+      - path: Bone001/Bone002/Bone047/Bone048/Bone049/Bone050/Bone051/Bone055
+        weight: 1
+      - path: Bone001/Bone002/Bone047/Bone048/Bone049/Bone050/Bone051/Bone055/Bone056
+        weight: 1
+      - path: Bone001/Bone002/Bone047/Bone048/Bone049/Bone050/Bone051/Bone055/Bone056/Bone057
+        weight: 1
+      - path: Bone069
+        weight: 1
+      - path: Bone069/Bone070
+        weight: 1
+      - path: Bone069/Bone070/Bone071
+        weight: 1
+      - path: Bone069/Bone070/Bone071/Bone072
+        weight: 1
+      - path: Bone069/Bone070/Bone071/Bone072/Bone073
+        weight: 1
+      - path: Bone069/Bone070/Bone071/Bone072/Bone073/Bone074
+        weight: 1
+      - path: Bone069/Bone075
+        weight: 1
+      - path: Bone069/Bone075/Bone076
+        weight: 1
+      - path: Bone069/Bone075/Bone076/Bone077
+        weight: 1
+      - path: Bone069/Bone075/Bone076/Bone077/Bone078
+        weight: 1
+      - path: Bone069/Bone075/Bone076/Bone077/Bone078/Bone079
+        weight: 1
+      - path: robot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 58
+    - serializedVersion: 16
+      name: grab
+      takeName: Take 001
+      firstFrame: 29
+      lastFrame: 57
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0

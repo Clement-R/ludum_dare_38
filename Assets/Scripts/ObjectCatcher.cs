@@ -10,9 +10,12 @@ public class ObjectCatcher : MonoBehaviour {
     ThirdPersonUserControl controller;
     GameManager manager;
 
+    Animator animator;
+
     void Awake() {
         pickPosition = transform.FindChild("Pick").transform;
         controller = GetComponent<ThirdPersonUserControl>();
+        animator = GetComponent<Animator>();
     }
 
     public void OnTriggerEnter(Collider other) {
@@ -28,12 +31,19 @@ public class ObjectCatcher : MonoBehaviour {
         }
     }
 
+    bool coroutineInTime = false;
+
     void Update() {
         if (manager == null) {
             manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
         }
 
-        if (canGrab && Input.GetButtonDown("P" + controller.playerId + "B")) {
+        bool grabIncoming = canGrab && Input.GetButtonDown("P" + controller.playerId + "B");
+        animator.SetBool("grab", coroutineInTime);
+
+        if (grabIncoming && !coroutineInTime) {
+            coroutineInTime = true;
+
             ball.transform.parent = pickPosition;
             ball.GetComponent<SphereCollider>().isTrigger = true;
             ball.GetComponent<Rigidbody>().isKinematic = true;
@@ -55,5 +65,6 @@ public class ObjectCatcher : MonoBehaviour {
 
         canGrab = true;
         manager.Reset(playerId - 1);
+        coroutineInTime = false;
     }
 }

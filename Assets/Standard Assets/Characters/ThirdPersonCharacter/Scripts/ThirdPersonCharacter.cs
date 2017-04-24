@@ -62,11 +62,13 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			move = Vector3.ProjectOnPlane(move, m_GroundNormal);
 			m_TurnAmount = Mathf.Atan2(move.x, move.z);
 			m_ForwardAmount = move.z;
+            transform.Translate(0,0, m_ForwardAmount * 5f * Time.deltaTime);
 
-			ApplyExtraTurnRotation();
+            ApplyExtraTurnRotation();
 
             // control and velocity handling is different when grounded and airborne:
 
+            
             if (m_IsGrounded)
 			{
 				HandleGroundedMovement(crouch, jump);
@@ -75,9 +77,10 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			{
                 HandleAirborneMovement(move);
 			}
+            
 
 			// send input and other state parameters to the animator
-			UpdateAnimator(move);
+			//UpdateAnimator(move);
 		}
 
 
@@ -166,9 +169,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
             // apply extra gravity from multiplier:
             Vector3 extraGravityForce = (Physics.gravity * m_GravityMultiplier) - Physics.gravity;
-            m_Rigidbody.AddForce(extraGravityForce);
+            //m_Rigidbody.AddForce(extraGravityForce);
 
-            m_GroundCheckDistance = m_Rigidbody.velocity.y < 0 ? m_OrigGroundCheckDistance : 0.01f;
+            //m_GroundCheckDistance = m_Rigidbody.velocity.y < 0 ? m_OrigGroundCheckDistance : 0.01f;
         }
 
 
@@ -227,7 +230,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			{
 				m_IsGrounded = false;
 				m_GroundNormal = Vector3.up;
-				m_Animator.applyRootMotion = false;
+                if(m_Animator != null)
+				    m_Animator.applyRootMotion = false;
 			}
 		}
 	}

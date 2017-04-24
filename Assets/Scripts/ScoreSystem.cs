@@ -14,7 +14,7 @@ public class ScoreSystem : MonoBehaviour {
 
     public GameObject finalScreen;
     public Image[] scores;
-    public float timeToWin = 60;
+    public float timeToWin = 40;
     public List<Player> players = new List<Player>();
 
     float unit = 0;
